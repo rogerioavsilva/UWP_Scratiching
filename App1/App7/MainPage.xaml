@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="App7.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App7"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:map="using:Windows.UI.Xaml.Controls.Maps"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="White">
+        <!--<WebView x:Name="Browser" Source="http://www.pearson.com"/>-->
+        <!--<WebView x:Name="Browser" />-->
+        <map:MapControl ZoomLevel="10" Heading="30" x:Name="Map">
+            <!--<SymbolIcon Symbol="Accept" x:Name="TickMark"/>-->
+            <Image Source="One_Ring_PNG.png" Width="100" Height="100" x:Name="TickMark" />
+        </map:MapControl>
+    </Grid>
+</Page>
