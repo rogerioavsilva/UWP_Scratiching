@@ -3,3 +3,11 @@
 ################################################################################
 
 /App1/App1/obj
+/App1/App2/obj
+/App1/App2/bin/x86/Debug
+/App1/App3/bin/x86/Debug
+/App1/App3/obj
+/App1/App4/bin/x86/Debug
+/App1/App4/obj
+/App1/App5/bin/x86/Debug
+/App1/App5/obj

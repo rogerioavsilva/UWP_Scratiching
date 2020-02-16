@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="App2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource AppBarBackgroundThemeBrush}">
+        <TextBlock x:Uid="Text1"  
+                   Text="Hello, World!"
+                   FontSize="80"
+                   FontStyle="Italic"
+                   FontWeight="Bold"
+                   Foreground="Red"
+                   TextWrapping="Wrap">
+            <Run Foreground="Blue" FontWeight="Light" Text="This text demonstrates"></Run>
+            <Span FontWeight="SemiBold">
+                <Run FontStyle="Italic">the use of inlines</Run>
+                <Run Foreground="Red">with formating</Run>
+                <Hyperlink xml:space="preserve" NavigateUri="http://www.bing.com"> Hyper Link to bing </Hyperlink>
+            </Span>
+        </TextBlock>
+        <Image Stretch="Uniform">
+            <Image.Source>
+                <BitmapImage UriSource="image/One_Ring_PNG.png" DecodePixelHeight="50" DecodePixelWidth="50" />
+            </Image.Source>
+            
+        </Image>
+        <!--<MediaElement Source="vd/nz.mp4" AutoPlay="False"/>-->
+        
+    </Grid>
+</Page>

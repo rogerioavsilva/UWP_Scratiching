@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="App4.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Background="{ThemeResource SystemControlBackgroundChromeWhiteBrush}">
+        <StackPanel.Resources>
+            <Thickness x:Key="MyThick">10</Thickness>
+            <SolidColorBrush x:Key="MyBrush" Color="Red" />
+            <Thickness x:Key="MyPadding">20</Thickness>
+            <x:Double x:Key="MyFontSize">50</x:Double>
+        </StackPanel.Resources>
+        <Button Content="Hello" 
+                FontSize="{StaticResource MyFontSize}" 
+                Foreground="Black" 
+                BorderThickness="{StaticResource MyThick}" 
+                BorderBrush="{StaticResource MyBrush}" 
+                Padding="{StaticResource MyPadding}"/>
+        <Button Content="Hello" FontSize="50" Foreground="Black" BorderThickness="10" BorderBrush="Green"></Button>
+    </StackPanel>
+</Page>
