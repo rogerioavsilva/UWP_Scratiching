@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="DataAsy_Sec4.Intro"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DataAsy_Sec4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ApplicationSecondaryForegroundThemeBrush}">
+        <StackPanel x:Name="ControlPanel">
+            <!--<Button Content="Show Help" Click="Button_Click" />
+            <TextBlock x:Name="Result" Text="Not text yet" TextWrapping="Wrap" />-->
+            <Button Foreground="Black" Content="Picture folder" Click="Button_Click_1" />
+            <Button Foreground="Black" Content="Cancel" Click="Button_Click_2" />
+            <Image x:Name="Pic" />
+        </StackPanel>
+    </Grid>
+</Page>

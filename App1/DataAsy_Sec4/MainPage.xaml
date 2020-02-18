@@ -8,13 +8,5 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="White">
-        <StackPanel x:Name="ControlPanel">
-            <!--<Button Content="Show Help" Click="Button_Click" />
-            <TextBlock x:Name="Result" Text="Not text yet" TextWrapping="Wrap" />-->
-            <Button Foreground="Black" Content="Picture folder" Click="Button_Click_1" />
-            <Button Foreground="Black" Content="Cancel" Click="Button_Click_2" />
-            <Image x:Name="Pic" />
-        </StackPanel>
-    </Grid>
+    <Frame x:Name="NavFrame" Background="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"></Frame>
 </Page>
