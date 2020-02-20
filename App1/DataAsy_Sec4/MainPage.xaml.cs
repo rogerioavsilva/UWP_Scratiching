@@ -30,7 +30,8 @@ namespace DataAsy_Sec4
         public MainPage()
         {
             this.InitializeComponent();
-            NavFrame.Navigate(typeof(RestCall));
+            //NavFrame.Navigate(typeof(RestCall));
+            NavFrame.Navigate(typeof(LocalData));
         }
 
     }
