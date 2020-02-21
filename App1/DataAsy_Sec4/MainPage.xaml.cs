@@ -31,7 +31,8 @@ namespace DataAsy_Sec4
         {
             this.InitializeComponent();
             //NavFrame.Navigate(typeof(RestCall));
-            NavFrame.Navigate(typeof(LocalData));
+            //NavFrame.Navigate(typeof(LocalData));            
+            NavFrame.Navigate(typeof(Threading));
         }
 
     }
