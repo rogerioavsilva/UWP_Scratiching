@@ -19,3 +19,6 @@
 /App1/DataAsy_Sec4/obj
 /App1/AppNavigation_Sec5/bin/x86/Debug
 /App1/AppNavigation_Sec5/obj
+
+**/bin/**
+**/obj/**
