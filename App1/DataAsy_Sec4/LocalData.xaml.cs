@@ -1,9 +1,12 @@
 ﻿using Newtonsoft.Json;
+using SQLite.Net;
+using SQLite.Net.Attributes;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Storage;
@@ -65,11 +68,15 @@ namespace DataAsy_Sec4
         }
 
 
+
+
         private void ShowSettings()
         {
             var settingsText = string.Join(", ", _Settings.Select(s => $"{s.Name} = {s.Value}"));
             Result.Text = settingsText;
         }
+
+                      
 
         string settingsfilename = "settings.json";
         Setting[] _Settings = Array.Empty<Setting>();
@@ -88,6 +95,7 @@ namespace DataAsy_Sec4
         };
     }
 
+    
     public class Setting 
     {
         public string Name { get; set; }

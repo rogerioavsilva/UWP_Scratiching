@@ -132,8 +132,13 @@
     <Compile Include="RestCall.xaml.cs">
       <DependentUpon>RestCall.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Threading.xaml.cs">
       <DependentUpon>Threading.xaml</DependentUpon>
+=======
+    <Compile Include="SqliteConnection.xaml.cs">
+      <DependentUpon>SqliteConnection.xaml</DependentUpon>
+>>>>>>> 7c619163ff4b9b1bc259158d7e70c64ba2fe0c43
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -173,7 +178,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< HEAD
     <Page Include="Threading.xaml">
+=======
+    <Page Include="SqliteConnection.xaml">
+>>>>>>> 7c619163ff4b9b1bc259158d7e70c64ba2fe0c43
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -185,6 +194,17 @@
     <PackageReference Include="Newtonsoft.Json">
       <Version>12.0.3</Version>
     </PackageReference>
+    <PackageReference Include="SQLite.Net-PCL">
+      <Version>3.1.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.VCLibs, Version=14.0">
+      <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
+    </SDKReference>
+    <SDKReference Include="SQLite.UWP.2015, Version=3.31.1">
+      <Name>SQLite for Universal Windows Platform</Name>
+    </SDKReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
