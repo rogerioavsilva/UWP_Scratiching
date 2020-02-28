@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAsy_Sec4", "DataAsy_Sec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppNavigation_Sec5", "AppNavigation_Sec5\AppNavigation_Sec5.csproj", "{565B7DBA-27EA-4FBC-ADBD-99C5D545BE13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppNavigation_Dialogs_sec5", "AppNavigation_Dialogs_sec5\AppNavigation_Dialogs_sec5.csproj", "{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -249,6 +251,30 @@ Global
 		{565B7DBA-27EA-4FBC-ADBD-99C5D545BE13}.Release|x86.ActiveCfg = Release|x86
 		{565B7DBA-27EA-4FBC-ADBD-99C5D545BE13}.Release|x86.Build.0 = Release|x86
 		{565B7DBA-27EA-4FBC-ADBD-99C5D545BE13}.Release|x86.Deploy.0 = Release|x86
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Debug|ARM.ActiveCfg = Debug|ARM
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Debug|ARM.Build.0 = Debug|ARM
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Debug|ARM.Deploy.0 = Debug|ARM
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Debug|ARM64.Build.0 = Debug|ARM64
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Debug|x64.ActiveCfg = Debug|x64
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Debug|x64.Build.0 = Debug|x64
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Debug|x64.Deploy.0 = Debug|x64
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Debug|x86.ActiveCfg = Debug|x86
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Debug|x86.Build.0 = Debug|x86
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Debug|x86.Deploy.0 = Debug|x86
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Release|ARM.ActiveCfg = Release|ARM
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Release|ARM.Build.0 = Release|ARM
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Release|ARM.Deploy.0 = Release|ARM
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Release|ARM64.ActiveCfg = Release|ARM64
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Release|ARM64.Build.0 = Release|ARM64
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Release|ARM64.Deploy.0 = Release|ARM64
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Release|x64.ActiveCfg = Release|x64
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Release|x64.Build.0 = Release|x64
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Release|x64.Deploy.0 = Release|x64
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Release|x86.ActiveCfg = Release|x86
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Release|x86.Build.0 = Release|x86
+		{174C7CF8-6EA9-4986-9CAF-A8885ECE5755}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
