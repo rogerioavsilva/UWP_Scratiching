@@ -132,6 +132,10 @@
     <Compile Include="RestCall.xaml.cs">
       <DependentUpon>RestCall.xaml</DependentUpon>
     </Compile>
+
+    <Compile Include="Threading.xaml.cs">
+      <DependentUpon>Threading.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SqliteConnection.xaml.cs">
       <DependentUpon>SqliteConnection.xaml</DependentUpon>
     </Compile>
@@ -170,6 +174,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="RestCall.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Threading.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

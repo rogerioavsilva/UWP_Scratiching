@@ -32,7 +32,11 @@ namespace DataAsy_Sec4
             this.InitializeComponent();
             //NavFrame.Navigate(typeof(RestCall));
             //NavFrame.Navigate(typeof(LocalData));            
+<<<<<<< HEAD
+            NavFrame.Navigate(typeof(Threading));
+=======
             NavFrame.Navigate(typeof(SqliteConnection));
+>>>>>>> 7c619163ff4b9b1bc259158d7e70c64ba2fe0c43
         }
 
     }

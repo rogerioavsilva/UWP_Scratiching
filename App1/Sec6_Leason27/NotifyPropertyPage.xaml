@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="Sec6_Leason27.NotifyPropertyPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Sec6_Leason27"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Resources>
+            <DataTemplate x:Key="TruckInfoDataTemplate">
+                <StackPanel x:Name="TruckPanel" Background="{Binding Style, Converter={StaticResource STBC}}">
+                    <TextBlock x:Name="TruckID" Text="{Binding ID}" />
+                    <TextBlock x:Name="TruckName" Text="{Binding Name}" />
+                    <TextBlock x:Name="TruckStyle" Text="{Binding Style}" />
+                </StackPanel>
+            </DataTemplate>
+            <local:StyleToBrushConverter x:Key="STBC" />
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <TextBlock Text="Selected Truck" />
+            <TextBlock Text="{Binding SelectedTruck.Name}" />
+            <Button Content="Add truck" Click="Button_Click"/>
+        </StackPanel>
+        <ListBox Grid.Row="1" SelectedItem="{Binding SelectedTruck, Mode=TwoWay}" ItemsSource="{Binding Trucks}" ItemTemplate="{ StaticResource TruckInfoDataTemplate}">
+            
+        </ListBox>
+    </Grid>
+</Page>
