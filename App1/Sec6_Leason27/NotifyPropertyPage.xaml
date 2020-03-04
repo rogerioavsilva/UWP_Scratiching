@@ -8,6 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+
     <Grid>
         <Grid.Resources>
             <DataTemplate x:Key="TruckInfoDataTemplate">
@@ -28,7 +29,10 @@
             <TextBlock Text="{Binding SelectedTruck.Name}" />
             <Button Content="Add truck" Click="Button_Click"/>
         </StackPanel>
-        <ListBox Grid.Row="1" SelectedItem="{Binding SelectedTruck, Mode=TwoWay}" ItemsSource="{Binding Trucks}" ItemTemplate="{ StaticResource TruckInfoDataTemplate}">
+        <ListBox Grid.Row="1" 
+                 SelectedItem="{Binding SelectedTruck, Mode=TwoWay}" 
+                 ItemsSource="{Binding Trucks}" 
+                 ItemTemplate="{ StaticResource TruckInfoDataTemplate}">
             
         </ListBox>
     </Grid>
