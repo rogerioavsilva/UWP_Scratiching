@@ -1,0 +1,1 @@
+D:\_Rogerio\_projetos\Udemy\UWP_Scratiching\App1\AppNavigation_Sec5\AppNavigation_Sec5.csproj;x86
