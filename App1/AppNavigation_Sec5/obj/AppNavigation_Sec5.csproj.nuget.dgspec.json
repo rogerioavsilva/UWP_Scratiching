@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_Projetos\\Udemy\\The complete Universal Windows Platform\\UWP_Scratiching\\App1\\AppNavigation_Sec5\\AppNavigation_Sec5.csproj": {}
+    "D:\\_Rogerio\\_projetos\\Udemy\\UWP_Scratiching\\App1\\AppNavigation_Sec5\\AppNavigation_Sec5.csproj": {}
   },
   "projects": {
-    "C:\\_Projetos\\Udemy\\The complete Universal Windows Platform\\UWP_Scratiching\\App1\\AppNavigation_Sec5\\AppNavigation_Sec5.csproj": {
+    "D:\\_Rogerio\\_projetos\\Udemy\\UWP_Scratiching\\App1\\AppNavigation_Sec5\\AppNavigation_Sec5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Projetos\\Udemy\\The complete Universal Windows Platform\\UWP_Scratiching\\App1\\AppNavigation_Sec5\\AppNavigation_Sec5.csproj",
+        "projectUniqueName": "D:\\_Rogerio\\_projetos\\Udemy\\UWP_Scratiching\\App1\\AppNavigation_Sec5\\AppNavigation_Sec5.csproj",
         "projectName": "AppNavigation_Sec5",
-        "projectPath": "C:\\_Projetos\\Udemy\\The complete Universal Windows Platform\\UWP_Scratiching\\App1\\AppNavigation_Sec5\\AppNavigation_Sec5.csproj",
-        "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
-        "outputPath": "C:\\_Projetos\\Udemy\\The complete Universal Windows Platform\\UWP_Scratiching\\App1\\AppNavigation_Sec5\\obj\\",
+        "projectPath": "D:\\_Rogerio\\_projetos\\Udemy\\UWP_Scratiching\\App1\\AppNavigation_Sec5\\AppNavigation_Sec5.csproj",
+        "packagesPath": "C:\\Users\\ravs\\.nuget\\packages\\",
+        "outputPath": "D:\\_Rogerio\\_projetos\\Udemy\\UWP_Scratiching\\App1\\AppNavigation_Sec5\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\roger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ravs\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
