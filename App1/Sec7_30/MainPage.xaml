@@ -18,8 +18,7 @@
             </local:LeftRightContentControl.LeftTemplate>            
             <local:LeftRightContentControl.RightTemplate>
                 <DataTemplate>
-                    <!-- <local:Rating Value="{Binding}" /> -->
-                    <local:Rating Value="4" />
+                     <local:Rating Value="{Binding}" /> 
                 </DataTemplate>
             </local:LeftRightContentControl.RightTemplate>
         </local:LeftRightContentControl>

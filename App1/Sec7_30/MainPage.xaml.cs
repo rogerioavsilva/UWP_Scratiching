@@ -9,7 +9,7 @@ namespace Sec7_30
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        public int Rating = 3;
+        public int Rating = 5;
 
         public MainPage()
         {

@@ -21,7 +21,7 @@ namespace Sec7_30
         }
 
         public static readonly DependencyProperty ValueProperty =
-            DependencyProperty.Register("value", typeof(int), typeof(Rating), new PropertyMetadata(1));
+            DependencyProperty.Register("Value", typeof(int), typeof(Rating), new PropertyMetadata(1));
     }
 
     public class GreaterOrEqualToIntToVisibilityConverter : IValueConverter
