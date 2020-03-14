@@ -120,6 +120,7 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Command.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TrucksVM.cs" />
     <Compile Include="TruckVM.cs" />

@@ -13,7 +13,10 @@ namespace ViewModels
         public TrucksVM()
         {
             Trucks = new ObservableCollection<TruckVM>();
+            RefreshCommand = new Command(LoadAsync);
         }
+
+        public Command RefreshCommand { get; set; }
 
         private ObservableCollection<TruckVM> _Trucks;
         public ObservableCollection<TruckVM> Trucks
