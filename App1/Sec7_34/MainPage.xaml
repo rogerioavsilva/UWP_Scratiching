@@ -9,7 +9,17 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <local:LeftRightContentControl LeftContent="{Binding}" RightContent="{Binding}">
+        <local:ClearableContentControl>
+            <TextBlock Text="Some text" FontSize="40"></TextBlock>
+        </local:ClearableContentControl>
+        <!--<local:GenericRatingControl Rating="4">
+            <local:GenericRatingControl.Template>
+                <ControlTemplate TargetType="local:GenericRatingControl">
+                    <TextBlock FontSize="50" Text="{Binding Rating, RelativeSource={RelativeSource Mode=TemplatedParent}}"></TextBlock>
+                </ControlTemplate>
+            </local:GenericRatingControl.Template>
+        </local:GenericRatingControl>-->
+        <!--<local:LeftRightContentControl LeftContent="{Binding}" RightContent="{Binding}">
             <local:LeftRightContentControl.LeftTemplate>
                 <DataTemplate>
                     <TextBlock Text="{Binding}" FontSize="40" VerticalAlignment="Center" />
@@ -20,6 +30,6 @@
                     <local:Rating Value="{Binding}" />
                 </DataTemplate>
             </local:LeftRightContentControl.RightTemplate>
-        </local:LeftRightContentControl>
+        </local:LeftRightContentControl>-->
     </Grid>
 </Page>
