@@ -9,8 +9,12 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <local:ClearableContentControl>
-            <TextBlock Text="Some text" FontSize="40"></TextBlock>
-        </local:ClearableContentControl>
+        <local:UniformWidthPanel>
+            <local:Rating Value="1" />
+            <local:Rating Value="2" />
+            <local:Rating Value="3" />
+            <local:Rating Value="4" />
+            <local:Rating Value="5" />
+        </local:UniformWidthPanel>
     </Grid>
 </Page>
