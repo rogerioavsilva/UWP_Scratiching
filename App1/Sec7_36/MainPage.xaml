@@ -9,12 +9,17 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <local:UniformWidthPanel>
-            <local:Rating Value="1" />
-            <local:Rating Value="2" />
-            <local:Rating Value="3" />
-            <local:Rating Value="4" />
-            <local:Rating Value="5" />
-        </local:UniformWidthPanel>
+        <StackPanel>
+            <TextBox Text="123" local:TextBoxUtils.ValidationRegEx="^[0-9]*$" 
+                     local:TextBoxUtils.ErrorControlName="ErrorMsg"/>
+            <TextBlock Text="Error: Only numbers are allowed" Foreground="Red" x:Name="ErrorMsg"/>
+        </StackPanel>
+        <!--<local:UniformWidthPanel>
+            <local:Rating Value="5" HorizontalAlignment="Center" local:UniformWidthPanel.Scale="5.0" />
+            <local:Rating Value="2" HorizontalAlignment="Center" />
+            <local:Rating Value="5" HorizontalAlignment="Center" />
+            <local:Rating Value="2" HorizontalAlignment="Center" />
+            <local:Rating Value="5" HorizontalAlignment="Center" />
+        </local:UniformWidthPanel>-->
     </Grid>
 </Page>
