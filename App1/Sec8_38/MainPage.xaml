@@ -9,6 +9,32 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <ScrollViewer>
+            <StackPanel Height="1080" Width="1920">
+                <TextBlock TextWrapping="Wrap" Margin="8" FontSize="30" Text="Some very long text that's part of the setting screem"/>
+                <Button Margin="8" FontSize="30" Content="Go to some setting" />
+                <TextBlock TextWrapping="Wrap" Margin="8" FontSize="30" Text="Some very long text that's part of the setting screem"/>
+                <Button Margin="8" FontSize="30" Content="Go to some setting" />
+                <TextBlock TextWrapping="Wrap" Margin="8" FontSize="30" Text="Some very long text that's part of the setting screem"/>
+                <Button Margin="8" FontSize="30" Content="Go to some setting" />
+                <TextBlock TextWrapping="Wrap" Margin="8" FontSize="30" Text="Some very long text that's part of the setting screem"/>
+                <Button Margin="8" FontSize="30" Content="Go to some setting" />
+                <TextBlock TextWrapping="Wrap" Margin="8" FontSize="30" Text="Some very long text that's part of the setting screem"/>
+                <Button Margin="8" FontSize="30" Content="Go to some setting" />
+            </StackPanel>
+        </ScrollViewer>
+        <!--<Viewbox Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Border BorderBrush="White" BorderThickness="2">
+                <SymbolIcon Symbol="Play">
+                    <SymbolIcon.Foreground>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Offset="0.0" Color="Yellow" />
+                            <GradientStop Offset="0.5" Color="Green" />
+                            <GradientStop Offset="1.0" Color="Blue" />
+                        </LinearGradientBrush>
+                    </SymbolIcon.Foreground>
+                </SymbolIcon>
+            </Border>
+        </Viewbox>-->        
     </Grid>
 </Page>
