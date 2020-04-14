@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="Sec8_38.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Sec8_38"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Height="1080" Width="1920">
+                <TextBlock TextWrapping="Wrap" Margin="8" FontSize="30" Text="Some very long text that's part of the setting screem"/>
+                <Button Margin="8" FontSize="30" Content="Go to some setting" />
+                <TextBlock TextWrapping="Wrap" Margin="8" FontSize="30" Text="Some very long text that's part of the setting screem"/>
+                <Button Margin="8" FontSize="30" Content="Go to some setting" />
+                <TextBlock TextWrapping="Wrap" Margin="8" FontSize="30" Text="Some very long text that's part of the setting screem"/>
+                <Button Margin="8" FontSize="30" Content="Go to some setting" />
+                <TextBlock TextWrapping="Wrap" Margin="8" FontSize="30" Text="Some very long text that's part of the setting screem"/>
+                <Button Margin="8" FontSize="30" Content="Go to some setting" />
+                <TextBlock TextWrapping="Wrap" Margin="8" FontSize="30" Text="Some very long text that's part of the setting screem"/>
+                <Button Margin="8" FontSize="30" Content="Go to some setting" />
+            </StackPanel>
+        </ScrollViewer>
+        <!--<Viewbox Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Border BorderBrush="White" BorderThickness="2">
+                <SymbolIcon Symbol="Play">
+                    <SymbolIcon.Foreground>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Offset="0.0" Color="Yellow" />
+                            <GradientStop Offset="0.5" Color="Green" />
+                            <GradientStop Offset="1.0" Color="Blue" />
+                        </LinearGradientBrush>
+                    </SymbolIcon.Foreground>
+                </SymbolIcon>
+            </Border>
+        </Viewbox>-->        
+    </Grid>
+</Page>
